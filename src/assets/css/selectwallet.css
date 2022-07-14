@@ -1,0 +1,50 @@
+.selectWallet {
+  background-image: url("../img/signup-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  mix-blend-mode: hard-light;
+  padding-top: 200px;
+}
+
+.signup-heading-wrapper p {
+  font-size: 13px !important;
+}
+.signup-heading-wrapper {
+  padding-bottom: 10px;
+}
+.signup-heading-wrapper h2 {
+  font-family: "Source Sans Pro" !important;
+  font-size: 45px !important;
+}
+.selectWallet .wallets-list-wrapper ul.wallets-list {
+  padding: 0px;
+  list-style: none;
+}
+.selectWallet .wallets-list-wrapper ul.wallets-list .wallet-card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background: #4b4b4c;
+  border-radius: 10px;
+}
+.selectWallet .wallets-list-wrapper ul.wallets-list label.wallet-container {
+  width: 100%;
+  position: relative;
+}
+.selectWallet
+  .wallets-list-wrapper
+  ul.wallets-list
+  label.wallet-container
+  input[type="checkbox"] {
+  position: absolute;
+  right: 900px;
+}
+.wallet-card-wrapper
+  ul.wallets-list
+  label.wallet-container
+  input:checked
+  ~ .wallet-card-wrapper {
+  border: 1px solid #fff;
+}

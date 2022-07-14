@@ -1,0 +1,66 @@
+.signup {
+  background-image: url("../img/signup-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  mix-blend-mode: hard-light;
+  padding-top: 200px;
+}
+.signup-wrapper input {
+  background: #09090a;
+  color: #fff;
+  border: 2px solid #ffffff;
+  height: 54px;
+  margin: 23px 0px;
+}
+.signup-wrapper input:focus {
+  background: #09090a !important;
+  color: #fff;
+  border: 2px solid #ffffff;
+}
+.signup-wrapper .form-label-group label {
+  color: #ffffff;
+}
+.signup-wrapper .form-label-group.in-border label::after {
+  background: #09090a !important;
+  height: 25px !important;
+  top: 10px !important;
+}
+.signup-wrapper .form-label-group.in-border input:focus ~ label {
+  font-size: 18px;
+}
+.signup-wrapper .form-label-group.in-border .input-group-btn {
+  position: absolute;
+  top: 18%;
+  right: 3%;
+}
+.signup-wrapper .form-label-group.in-border {
+  position: relative;
+}
+.signup-wrapper .form-label-group.in-border .input-group-btn button {
+  background: transparent;
+  color: #ffffff;
+}
+.signup-wrapper .btn {
+  padding: 0px !important;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.signup-wrapper .info-wrapper {
+  text-align: center;
+  font-family: "Montserrat";
+}
+.signup-wrapper .info-wrapper a {
+  color: #02bac5;
+}
+.signup-heading-wrapper p {
+  font-size: 13px !important;
+}
+.signup-heading-wrapper {
+  padding-bottom: 10px;
+}
+.signup-heading-wrapper h2 {
+  font-family: "Source Sans Pro" !important;
+  font-size: 45px !important;
+}
