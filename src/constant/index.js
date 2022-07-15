@@ -33,8 +33,24 @@ import red_graph from "../assets/img/red-graph.png";
 import purple_graph from "../assets/img/purple-graph.png";
 import coin_sec from "../assets/img/coin-sec.png";
 import select_after from "../assets/img/select-after.png";
+import usb from "../assets/img/wallet.png";
+import notcheckusb from "../assets/img/notcheckusb.png";
+import checkmobile from "../assets/img/checkmobile.png";
+import notcheckmobile from "../assets/img/notcheckmmobile.png";
+import checklaptop from "../assets/img/checklaptop.png";
+import notchecklaptop from "../assets/img/notcchecklaptop.png";
+import search_icon from "../assets/img/search-icon.png";
+import chart_img from "../assets/img/charts-img.png";
 
 export {
+  chart_img,
+  search_icon,
+  checklaptop,
+  notchecklaptop,
+  notcheckmobile,
+  checkmobile,
+  notcheckusb,
+  usb,
   select_after,
   coin_sec,
   yellow_graph,

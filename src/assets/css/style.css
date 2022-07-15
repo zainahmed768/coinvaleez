@@ -1,7 +1,5 @@
 /* font family starts here */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
-/* @import url("http://fonts.cdnfonts.com/css/brown"); */
-/* @import url("https://db.onlinewebfonts.com/c/123c7e674188c97798dd39cd41ff2d85?family=Brown+Regular"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap&family=Poppins:wght@300;400;500;600&display=swap");
 
 /* font family starts here */
 h1 {
@@ -90,10 +88,9 @@ a:hover {
 }
 header#top {
   padding: 16px 0px;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 2;
-  background: #0e1722;
+  z-index: 7;
 }
 .mennu-wrapper .navbar-nav li a {
   color: #fff;
@@ -136,6 +133,11 @@ header#top {
 }
 .banner-sec .ploy-img-wrapper img {
   animation: rotation 9s infinite linear;
+}
+@media (max-width: 1440px) {
+  .banner-sec .banner-img-wrapper img.banner-img {
+    top: 26px;
+  }
 }
 /* banner ends here */
 /* manage-sec starts here */
@@ -598,6 +600,11 @@ section.faq .card button[aria-expanded="true"] span i {
   );
   color: #1a0b56;
 }
+@media (max-width: 1366px) {
+  .current_buzz .dots-wrapper {
+    right: -12%;
+  }
+}
 /* blog ends here */
 /* footer starts here */
 footer#footer {
@@ -858,6 +865,11 @@ footer#footer .copyright p {
   position: absolute;
   right: 14px;
   top: -29px;
+}
+@media (max-width: 1440px) {
+  .trading_coins .dots-wrapper {
+    right: -12%;
+  }
 }
 /* tading ends here */
 @keyframes rotation {

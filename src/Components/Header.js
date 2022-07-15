@@ -24,22 +24,22 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/About">
+                    <Link className="nav-link" to="/">
                       About
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Exchange">
+                    <Link className="nav-link" to="/onboarding">
                       Exchange
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/About">
+                    <Link className="nav-link" to="/">
                       Contact Us
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link btn" to="/About">
+                    <Link className="nav-link btn" to="/ConnectWallet">
                       Connect Wallet
                     </Link>
                   </li>

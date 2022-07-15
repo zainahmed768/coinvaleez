@@ -1,25 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../Components/Header";
-import "../../assets/css/selectwallet.css";
 import {
-  checklaptop,
-  checkmobile,
-  notchecklaptop,
-  notcheckmobile,
-  notcheckusb,
-  usb,
-  wallet,
-  yellow_graph,
+  Liquality,
+  MetaMask,
+  Portis,
 } from "../../constant";
 
-const SelectWallet = () => {
+const BrowserWallet = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleOnChange = (e) => {
     setIsChecked(e.target.checked);
-  };
-  const BrowsePage = () => {
-    window.location.href = "/BrowseWallet";
   };
   return (
     <>
@@ -50,12 +41,11 @@ const SelectWallet = () => {
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
-                            className={`${isChecked}`}
-                            src={isChecked ? usb : notcheckusb}
+                            src={Liquality}
                           />
                         </div>
                         <div className="wallet-content-wrapper">
-                          <h3>Hardware</h3>
+                          <h3>Liquality</h3>
                           <span>
                             Connect <i className="fa fa-angle-right"></i>
                           </span>
@@ -73,12 +63,11 @@ const SelectWallet = () => {
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
-                            className={`${isChecked}`}
-                            src={isChecked ? notcheckmobile : checkmobile}
+                            src={MetaMask}
                           />
                         </div>
                         <div className="wallet-content-wrapper">
-                          <h3>Mobile</h3>
+                          <h3>MetaMask</h3>
                           <span>
                             Connect <i className="fa fa-angle-right"></i>
                           </span>
@@ -96,12 +85,11 @@ const SelectWallet = () => {
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
-                            className={`${isChecked}`}
-                            src={isChecked ? notchecklaptop : checklaptop}
+                            src={Portis}
                           />
                         </div>
                         <div className="wallet-content-wrapper">
-                          <h3>Browser</h3>
+                          <h3>Portis</h3>
                           <span>
                             Connect <i className="fa fa-angle-right"></i>
                           </span>
@@ -111,9 +99,7 @@ const SelectWallet = () => {
                   </li>
                 </ul>
                 <div className="button-wrapper">
-                  <button onClick={BrowsePage} className="btn form-control">
-                    Next
-                  </button>
+                  <button className="btn form-control">Next</button>
                 </div>
               </div>
             </div>
@@ -125,4 +111,4 @@ const SelectWallet = () => {
   );
 };
 
-export default SelectWallet;
+export default BrowserWallet;

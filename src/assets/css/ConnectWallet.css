@@ -1,0 +1,241 @@
+.wallet-sec {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.wallet-sec .collect-wrapper {
+  background: #1a293a;
+  padding: 40px 60px 74px 60px;
+  border-radius: 11px;
+  border: 2px solid #31445a;
+}
+.wallet-sec .collect-wrapper h4 {
+  font-size: 35px !important;
+  font-weight: 500 !important;
+  font-family: "Montserrat" !important;
+}
+
+.wallet-sec .collect-wrapper p {
+  color: #aeb3b8;
+  font-size: 15px !important;
+}
+.wallet-sec .trading-card-wrapper .coin-wrapper {
+  background: #1c2c3e;
+  border-radius: 6px;
+  border: 2px solid #283a4e;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+.trading-card-wrapper h3 {
+  font-size: 21px !important;
+}
+.trading-card-wrapper h4 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.trading-card-wrapper h6 {
+  background: #07192d;
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 7px;
+  border: 1px solid #283a4e;
+  color: #2a61ce;
+  font-size: 12px !important;
+  font-weight: 600;
+}
+.wallet-sec .trading-card-wrapper .coin-wrapper .coin-name-wrapper {
+  flex: 0 0 52%;
+}
+.wallet-sec .trading-card-wrapper .coin-wrapper .cart-wrapper {
+  flex: 0 0 35%;
+}
+.wallet-sec .trading-card-wrapper {
+  position: relative;
+  margin: 20px 0px;
+}
+.wallet-sec .trading-card-wrapper .trading-icon-wrapper {
+  position: absolute;
+  right: 14px;
+  top: -29px;
+}
+.wallet-sec .coin-wrapper {
+  margin-top: -35px;
+}
+.wallet-sec .container-fluid {
+  width: 1250px;
+}
+.tab-content-wrapper .tab-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+}
+.tab-content-wrapper .tab-links-wrapper .search-wrapper {
+  flex: 0 0 30%;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.tab-content-wrapper .tab-links-wrapper ul#myTab {
+  flex: 0 0 70%;
+  border: 0px;
+}
+
+.tab-content-wrapper .tab-links-wrapper .search-wrapper input {
+  background: transparent;
+  font-family: "Montserrat";
+  font-size: 12px;
+  height: 43px;
+  color: #fff;
+  border: 0px;
+}
+.tab-content-wrapper .tab-links-wrapper .search-wrapper input::placeholder {
+  color: #fff;
+}
+.tab-content-wrapper .tab-links-wrapper .search-wrapper button {
+  background: transparent;
+  border: 0px;
+  border-left: 1px solid #fff;
+  height: 24px;
+  margin-top: 10px;
+}
+
+.tab-links-wrapper .nav-tabs .nav-link.active {
+  background: linear-gradient(
+    to right,
+    #00cfc4,
+    #00c9c7,
+    #00c3c8,
+    #00bdc9,
+    #00b7c9,
+    #00aecf,
+    #00a4d3,
+    #009ad4,
+    #0088db,
+    #0075de,
+    #005edc,
+    #1641d2
+  ) !important;
+  color: #fff;
+  border: 0px;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding: 12px 24px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  border: 1px solid #00cfc4 !important;
+}
+.wallet-sec .tab-links-wrapper .nav-tabs .nav-link {
+  background: transparent;
+  color: #fff;
+  border: 0px;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding: 12px 24px;
+  font-weight: 600;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid #fff;
+}
+.wallet-sec .tab-wrapper {
+  background: #1a293a;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #283748;
+}
+.tab-wrapper td {
+  vertical-align: middle;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
+
+.wallet-sec {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.tab-wrapper .table thead th {
+  color: #fff;
+  font-weight: 600;
+}
+.tab-wrapper .assets-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.tab-wrapper button.btn {
+  height: 37px;
+  padding: 0px 20px !important;
+  font-size: 14px;
+  border-radius: 7px !important;
+  background: #283748;
+  border: 2px solid #3c4a5a !important;
+  margin: 0px 10px;
+}
+.tab-wrapper .table-responsive {
+  margin-top: 40px;
+}
+.assets-wrapper img {
+  height: 30px;
+}
+.tab-wrapper td {
+  border: 0px;
+  padding: 15px 10px;
+}
+.tab-wrapper .table-responsive {
+  margin-top: 40px;
+}
+.assets-wrapper img {
+  height: 30px;
+}
+.tab-wrapper td {
+  border: 0px;
+  padding: 15px 10px;
+}
+.tab-wrapper .pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid #c5c5c5;
+  margin-top: 34px;
+}
+.pagination-list-wrapper ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-wrapper .total-record-wrapper {
+  flex: 0 0 30%;
+}
+.pagination-wrapper .pagination-list-wrapper {
+  flex: 0 0 24%;
+}
+.pagination-wrapper .pagination-list-wrapper li a {
+  color: #fff;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+.pagination-wrapper .pagination-list-wrapper li a i {
+  color: #66798f;
+}
+
+.pagination-wrapper .pagination-list-wrapper li a:last-child i {
+  border: 1px solid;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

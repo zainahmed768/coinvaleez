@@ -21,6 +21,9 @@ const Signup = () => {
   const stoploading = (e) => {
     e.preventDefault();
   };
+  const selectpage = () => {
+    window.location.href = "/selectWallet";
+  };
   useEffect(() => {
     $(".intl-tel-input ~ label").insertAfter(
       ".intl-tel-input input.form-control"
@@ -117,7 +120,9 @@ const Signup = () => {
                     <label for="ex1">Confirm Password</label>
                   </div>
                   <div className="form-group">
-                    <button className="btn form-control">Connect Wallet</button>
+                    <button onClick={selectpage} className="btn form-control">
+                      Connect Wallet
+                    </button>
                   </div>
                 </form>
                 <div className="info-wrapper">

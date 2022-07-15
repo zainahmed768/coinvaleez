@@ -2,9 +2,10 @@
   background-image: url("../img/signup-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   mix-blend-mode: hard-light;
-  padding-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .signup-heading-wrapper p {
@@ -23,11 +24,24 @@
 }
 .selectWallet .wallets-list-wrapper ul.wallets-list .wallet-card-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: #4b4b4c;
-  border-radius: 10px;
+  /* background-image: url("../img/select-bg.png"); */
+  background-color: #9999998a;
+  border-radius: 4px;
+  -webkit-backdrop-filter: blur(109px);
+  backdrop-filter: blur(109px);
+}
+.wallet-card-wrapper .wallet-img-wrapper {
+  flex: 0 0 40%;
+  text-align: center;
+}
+.wallet-card-wrapper .wallet-content-wrapper {
+  flex: 0 0 60%;
+}
+.wallet-card-wrapper .wallet-content-wrapper h3 {
+  margin: 0px;
 }
 .selectWallet .wallets-list-wrapper ul.wallets-list label.wallet-container {
   width: 100%;
@@ -37,14 +51,56 @@
   .wallets-list-wrapper
   ul.wallets-list
   label.wallet-container
-  input[type="checkbox"] {
+  input[type="radio"] {
   position: absolute;
   right: 900px;
 }
-.wallet-card-wrapper
+.selectWallet
+  .wallets-list-wrapper
   ul.wallets-list
   label.wallet-container
-  input:checked
+  input[type="radio"]:checked
   ~ .wallet-card-wrapper {
   border: 1px solid #fff;
+  position: relative;
+}
+.wallets-list-wrapper ul.wallets-list li.wallet {
+  margin: 20px 0px;
+}
+.selectWallet
+  .wallets-list-wrapper
+  ul.wallets-list
+  label.wallet-container
+  input[type="radio"]:checked
+  ~ .wallet-card-wrapper::after {
+  content: url("../img/right-slide-outline.png");
+  position: absolute;
+  right: -4px;
+  top: -3px;
+}
+.selectWallet
+  .wallets-list-wrapper
+  ul.wallets-list
+  label.wallet-container
+  input[type="radio"]:checked
+  ~ .wallet-card-wrapper::before {
+  content: url("../img/slide-outline.png");
+  position: absolute;
+  left: -4px;
+  bottom: -10px;
+}
+.selectWallet li.wallet img {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+
+.wallets-list-wrapper .btn {
+  padding: 0px !important;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.wallet-card-wrapper .wallet-img-wrapper img {
+  mix-blend-mode: color-dodge;
 }
