@@ -99,6 +99,80 @@ header#top {
   font-weight: 600;
 }
 
+header .mobile-header {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  background: #182b41;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  padding-top: 30px;
+  transition: 0.7s;
+  transform: translateX(100%);
+}
+header .mobile-header.show {
+  transform: translateX(0%);
+}
+header .mobile-header ul.mobile-nav {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+header .mobile-header .cancel {
+  background: #fff;
+  width: 35px;
+  text-align: center;
+  height: 35px;
+  line-height: 55px;
+  margin: 0px 20px 20px auto;
+}
+header .mobile-header ul.mobile-nav li.nav-item {
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #dddddd4a;
+}
+header .mobile-header ul.mobile-nav li.nav-item a {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 20px;
+}
+.canvas-icon {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .mennu-wrapper ul.navbar-nav {
+    display: none;
+  }
+  .canvas-icon {
+    display: block;
+  }
+  .mennu-wrapper .canvas-icon i {
+    display: block;
+    text-align: end;
+    margin-right: 10px;
+    background-image: linear-gradient(
+      to right,
+      #00cfc4,
+      #00c9c7,
+      #00c3c8,
+      #00bdc9,
+      #00b7c9,
+      #00aecf,
+      #00a4d3,
+      #009ad4,
+      #0088db,
+      #0075de,
+      #005edc,
+      #1641d2
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 34px;
+    position: relative;
+    top: 11px;
+  }
+}
 /* header ends here */
 /* banner starts here */
 .banner-sec {
