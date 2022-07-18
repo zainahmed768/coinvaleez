@@ -253,6 +253,13 @@ header .mobile-header ul.mobile-nav li.nav-item a {
     1;
   padding: 11px 0px;
 }
+.Browser-Wallet-sec .platform-wrapper .platform-card-wrapper:first-child::before {
+  content: url("../img/Liquality.png");
+  position: absolute;
+  right: -9px;
+  bottom: -1px;
+  filter: blur(16px) brightness(0.4);
+}
 .platform-wrapper .platform-card-wrapper .platform-img-wrapper {
   flex: 0 0 40%;
   text-align: end;
@@ -424,8 +431,29 @@ header .mobile-header ul.mobile-nav li.nav-item a {
     )
     1;
   padding: 11px 0px;
+  position: relative;
+  -webkit-backdrop-filter: blur(64px);
+  backdrop-filter: blur(64px);
+  background-image: linear-gradient(45deg, #0f0f0f, transparent);
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
-
+.Browser-Wallet-sec .platform-card-wrapper:nth-child(2)::before {
+  content: url("../img/MetaMask.png");
+  position: absolute;
+  left: -9px;
+  bottom: -1px;
+  filter: blur(15px) brightness(0.2);
+  z-index: 1;
+}
+.Browser-Wallet-sec .platform-card-wrapper:nth-child(3)::before {
+  content: url("../img/Portis.png");
+  position: absolute;
+  right: -9px;
+  bottom: 10px;
+  filter: blur(15px) brightness(0.2);
+  z-index: 1;
+}
 .Browser-Wallet-sec {
   padding-top: 150px;
   padding-bottom: 100px;
