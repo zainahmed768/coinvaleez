@@ -19,6 +19,10 @@
   border: 1px solid #2f3d4e;
   top: 18%;
 }
+.onboarding-heading-wrapper h2 {
+  font-family: "Source Sans Pro" !important;
+  text-transform: capitalize;
+}
 .onboarding-sec .onboarding-wrapper {
   padding: 50px 20px;
   border: 2px solid #068c8c;

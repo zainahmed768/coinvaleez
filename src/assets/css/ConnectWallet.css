@@ -27,7 +27,7 @@
   border: 2px solid #283a4e;
   display: flex;
   align-items: center;
-  padding: 10px 10px;
+  padding: 26px 10px 10px 10px;
 }
 .trading-card-wrapper h3 {
   font-size: 21px !important;
@@ -39,12 +39,30 @@
 .trading-card-wrapper h6 {
   background: #07192d;
   display: inline-block;
-  padding: 6px 13px;
-  border-radius: 7px;
+  border-radius: 4px;
   border: 1px solid #283a4e;
   color: #2a61ce;
   font-size: 12px !important;
   font-weight: 600;
+  height: 24px;
+  padding: 0px;
+  width: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trading-card-wrapper h6.margin {
+  margin-top: 15px;
+}
+.trading-card-wrapper h4 {
+  margin-top: 15px;
+}
+.trading-card-wrapper h6.btc {
+  margin: 0px auto;
+}
+.trading_coins .trading-card-wrapper .coin-wrapper .cart-wrapper {
+  flex: 0 0 35%;
+  margin-top: 10px;
 }
 .wallet-sec .trading-card-wrapper .coin-wrapper .coin-name-wrapper {
   flex: 0 0 52%;
@@ -129,17 +147,34 @@
   background-repeat: no-repeat;
   border: 1px solid #00cfc4 !important;
 }
+.assets-heading-wrapper h3 {
+  font-family: "Montserrat" !important;
+  font-weight: 500 !important;
+}
+.tab-wrapper td.balance-wrapper {
+  text-align: center;
+}
+div#profile th.Asset {
+  width: 18%;
+}
+div#profile th.Balance {
+  text-align: center;
+}
+.pagination-wrapper .pagination-list-wrapper a.pagination-links.active {
+  color: #747d88;
+}
 .wallet-sec .tab-links-wrapper .nav-tabs .nav-link {
   background: transparent;
   color: #fff;
   border: 0px;
-  border-radius: 4px;
+  border-radius: 7px;
   font-family: "Montserrat";
   font-size: 14px;
   padding: 12px 24px;
   font-weight: 600;
   margin: 0px 10px 0px 0px;
   border: 1px solid #fff;
+  margin-right: 30px;
 }
 .wallet-sec .tab-wrapper {
   background: #1a293a;

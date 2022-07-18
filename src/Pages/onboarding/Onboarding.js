@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import "../../assets/css/onboarding.css";
+import $ from "jquery";
 
 const Onboarding = () => {
   return (
@@ -20,7 +21,7 @@ const Onboarding = () => {
                     typesetting
                   </p>
                 </div>
-                <div className="onboarding-form-wrappper">
+                <div className="onboarding-form-wrappper mt-5">
                   <div className="signup-wrapper">
                     <form>
                       <div className="form-group row">

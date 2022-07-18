@@ -85,10 +85,7 @@ const Home = () => {
           </div>
         </div>
         <div className="ploy-img-wrapper">
-          <img
-            src={banner_polygon}
-            className="img-fluid "
-          />
+          <img src={banner_polygon} className="img-fluid " />
         </div>
       </section>
       {/* banner ends here */}
@@ -503,6 +500,13 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="row pt-4">
+            <div className="col-lg-12">
+              <div className="content-wrapper">
+                <button className="btn mr-0">View More</button>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="dots-wrapper">
           <img src={banner_dots} />
@@ -648,7 +652,11 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="faq-img-wrapper">
-                <img src={faq_img} className="img-fluid wow animate__animated animate__fadeInLeft" alt="faq_img" />
+                <img
+                  src={faq_img}
+                  className="img-fluid wow animate__animated animate__fadeInLeft"
+                  alt="faq_img"
+                />
               </div>
             </div>
             <div className="col-lg-6">
@@ -656,7 +664,10 @@ const Home = () => {
                 <h2>FAQ's</h2>
                 <div className="divider"></div>
               </div>
-              <div className="accordion wow animate__animated animate__fadeInRight" id="accordionExample">
+              <div
+                className="accordion wow animate__animated animate__fadeInRight"
+                id="accordionExample"
+              >
                 <div className="card">
                   <div className="card-header" id="headingOne">
                     <h2 className="mb-0">

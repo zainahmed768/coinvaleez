@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap&family=Poppins:wght@300;400;500;600&display=swap");
 
 /* font family starts here */
+:root {
+  --padding-y: 1rem;
+}
 h1 {
   font-size: 50px !important;
   font-family: "Montserrat" !important;
@@ -64,8 +67,9 @@ a:hover {
     #005edc,
     #1641d2
   );
+
   padding: 12px 25px !important;
-  border-radius: 9px !important;
+  border-radius: 13px !important;
   background-repeat: no-repeat;
   font-size: 14px !important;
   color: #fff !important;
@@ -110,6 +114,9 @@ header .mobile-header {
   padding-top: 30px;
   transition: 0.7s;
   transform: translateX(100%);
+}
+.mennu-wrapper .navbar-nav li a {
+  margin-right: 0px;
 }
 header .mobile-header.show {
   transform: translateX(0%);
@@ -179,18 +186,19 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   background-image: url("../img/banner-bg.png");
   background-position: bottom center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 85vh;
   position: relative;
   overflow: hidden;
 }
 .banner-sec .banner-row-wrapper {
-  padding-top: 127px;
+  padding-top: 75px;
 }
 .banner-sec h1 {
   color: #fff;
 }
 .banner-sec p {
   color: #fff;
+  font-size: 14px !important;
 }
 .banner-sec .banner-img-wrapper img.banner-img {
   position: relative;
@@ -198,7 +206,7 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 }
 .banner-sec .banner-img-wrapper img.banner-img {
   position: relative;
-  top: 77px;
+  top: 41px;
 }
 .banner-sec .ploy-img-wrapper {
   position: absolute;
@@ -222,7 +230,7 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 }
 .platform-wrapper .platform-card-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background: #111111;
   margin: 22px 0px;
   border-style: solid;
@@ -245,12 +253,24 @@ header .mobile-header ul.mobile-nav li.nav-item a {
     1;
   padding: 11px 0px;
 }
-
+.platform-wrapper .platform-card-wrapper .platform-img-wrapper {
+  flex: 0 0 40%;
+  text-align: end;
+}
+.platform-wrapper .platform-card-wrapper .platform-img-wrapper img {
+  margin-right: 20px;
+}
+.platform-wrapper .platform-card-wrapper .platform-name-wrapper {
+  flex: 0 0 61%;
+}
 .manage-sec {
   padding-top: 150px;
   padding-bottom: 100px;
   overflow-x: hidden;
   position: relative;
+}
+.platform-wrapper .platform-card-wrapper:first-child {
+  margin-top: 10px;
 }
 .manage-sec .platform-wrapper .platform-card-wrapper h3 {
   color: #fff;
@@ -293,7 +313,7 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 .hard-type .hard-card-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .hard-type .select-after {
   position: absolute;
@@ -308,9 +328,22 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   /* overflow-x: hidden; */
   position: relative;
 }
+.hard-type .hard-card-wrapper .hard-content-wrapper h4 {
+  font-size: 19px !important;
+}
+.hard-type .hard-card-wrapper .hard-content-wrapper a {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+}
 .hard-type .hard-card-wrapper .hard-img-wrapper {
   flex: 0 0 25%;
   text-align: center;
+}
+.hard-type .hard-card-wrapper .hard-content-wrapper p {
+  margin-bottom: 0px;
+  font-size: 14px !important;
 }
 .hard-type .hard-card-wrapper .hard-content-wrapper {
   flex: 0 0 50%;
@@ -363,6 +396,9 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   position: absolute;
   right: -7%;
   top: -5%;
+}
+.Browser-Wallet-sec h2 {
+  font-size: 34px !important;
 }
 .Browser-Wallet-sec .platform-card-wrapper {
   display: flex;
@@ -445,6 +481,10 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 .faq .faq-coin img {
   animation: rotation 9s infinite linear;
 }
+.faq .card button.btn[aria-expanded="false"] {
+  color: #a5a1a1 !important;
+  font-size: 19px !important;
+}
 .faq .divider {
   background-image: linear-gradient(
     to right,
@@ -481,7 +521,7 @@ header .mobile-header ul.mobile-nav li.nav-item a {
   display: flex;
   justify-content: space-between;
   padding: 15px 0px !important;
-  font-size: 20px !important;
+  font-size: 19px !important;
   font-weight: 600;
 }
 .faq .card button.btn:hover {
@@ -684,9 +724,18 @@ section.faq .card button[aria-expanded="true"] span i {
 footer#footer {
   padding-top: 50px;
   background-image: url("../img/footer-bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
+}
+footer#footer .footer-widget-2 {
+  margin-top: 19px;
+}
+footer#footer .footer-widget-3 {
+  margin-top: 19px;
+}
+footer#footer .footer-widget-4 {
+  margin-top: 19px;
 }
 footer#footer .social-wrapper ul li a:hover {
   text-decoration: none;
@@ -876,6 +925,12 @@ footer#footer .copyright p {
   right: -7%;
   bottom: 22%;
 }
+.trading-card-wrapper .cart-wrapper img {
+  width: 120px;
+  height: 80px;
+  position: relative;
+  right: 14px;
+}
 .trading_coins .content-wrapper {
   text-align: center;
 }
@@ -906,7 +961,7 @@ footer#footer .copyright p {
   border: 2px solid #283a4e;
   display: flex;
   align-items: center;
-  padding: 10px 10px;
+  padding: 30px 10px 10px 10px;
 }
 .trading-card-wrapper h3 {
   font-size: 21px !important;

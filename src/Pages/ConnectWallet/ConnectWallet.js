@@ -362,7 +362,7 @@ const ConnectWallet = () => {
                               </a>
                             </li>
                             <li>
-                              <a className="pagination-links">1</a>
+                              <a className="pagination-links active">1</a>
                             </li>
                             <li>
                               <a className="pagination-links">2</a>
@@ -504,7 +504,7 @@ const ConnectWallet = () => {
                               </a>
                             </li>
                             <li>
-                              <a className="pagination-links">1</a>
+                              <a className="pagination-links active">1</a>
                             </li>
                             <li>
                               <a className="pagination-links">2</a>
