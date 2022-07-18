@@ -1009,3 +1009,6 @@ footer#footer .copyright p {
     -webkit-transform: rotateY(359deg);
   }
 }
+.footer-widget-4 button.btn {
+  border-radius: 0px !important;
+}

@@ -108,8 +108,8 @@ const Footer = () => {
                 <div className="footer-links">
                   <h5>Newsletter</h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    sollii sn erat vel n erat n erat vel rhoncus n erat vel
+                    Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. In
+                    sollii sn erat vel n <br/>  erat n erat vel rhoncus n erat vel  <br/>
                     rhoncus sollicitudin.
                   </p>
                   <div className="input-group">

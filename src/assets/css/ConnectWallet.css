@@ -34,7 +34,7 @@
 }
 .trading-card-wrapper h4 {
   font-size: 16px !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 .trading-card-wrapper h6 {
   background: #07192d;
@@ -204,14 +204,23 @@ div#profile th.Balance {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 200px;
+  width: 150px;
 }
-
+.tab-content-wrapper th.index {
+  width: 8%;
+}
+div#profile th.Action {
+  width: 14%;
+  text-align: center;
+}
+div#profile th.index {
+  width: 15%;
+}
 .tab-wrapper button.btn {
-  height: 37px;
+  height: 31px;
   padding: 0px 20px !important;
   font-size: 14px;
-  border-radius: 7px !important;
+  border-radius: 5px !important;
   background: #283748;
   border: 2px solid #3c4a5a !important;
   margin: 0px 10px;
@@ -234,7 +243,8 @@ div#profile th.Balance {
 }
 .tab-wrapper td {
   border: 0px;
-  padding: 15px 10px;
+  padding: 21px 10px;
+  vertical-align: middle;
 }
 .tab-wrapper .pagination-wrapper {
   display: flex;
@@ -273,4 +283,9 @@ div#profile th.Balance {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.coin-wrapper .trading-card-wrapper h3 {
+  font-family: "Montserrat" !important;
+  font-size: 19px !important;
+  font-weight: 500 !important;
 }

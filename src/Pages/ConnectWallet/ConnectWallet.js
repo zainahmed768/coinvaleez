@@ -65,12 +65,12 @@ const ConnectWallet = () => {
                     </div>
                     <div className="coin-wrapper">
                       <div className="coin-name-wrapper">
-                        <h3>Bitcoin BTC</h3>
+                        <h3>Evans EVS</h3>
                         <h4>+789456123</h4>
                         <h6 className="margin">+12%</h6>
                       </div>
                       <div className="cart-wrapper">
-                        <h6 className="btc">BTC</h6>
+                        <h6 className="btc">EVNS</h6>
                         <img src={red_graph} />
                       </div>
                     </div>
