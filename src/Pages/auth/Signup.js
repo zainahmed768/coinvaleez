@@ -6,10 +6,15 @@ import $ from "jquery";
 import { Link } from "react-router-dom";
 
 const Signup = () => {
+  const [passwordType2, setPasswordType2] = useState("password");
   const [passwordType, setPasswordType] = useState("password");
   const [passwordInput, setPasswordInput] = useState("");
+  const [passwordInput2, setPasswordInput2] = useState("");
   const handlePasswordChange = (evnt) => {
     setPasswordInput(evnt.target.value);
+  };
+  const handlePasswordChange2 = (evnt) => {
+    setPasswordInput2(evnt.target.value);
   };
   const togglePassword = () => {
     if (passwordType === "password") {
@@ -17,6 +22,13 @@ const Signup = () => {
       return;
     }
     setPasswordType("password");
+  };
+  const togglePassword2 = () => {
+    if (passwordType === "password") {
+      setPasswordType2("text");
+      return;
+    }
+    setPasswordType2("password");
   };
   const stoploading = (e) => {
     e.preventDefault();
@@ -103,14 +115,16 @@ const Signup = () => {
                   </div>
                   <div class="form-label-group in-border">
                     <input
-                      type={passwordType}
+                      type={passwordType2}
                       className="form-control confirm-password"
                       id="ex1"
                       placeholder="**********"
+                      onChange={handlePasswordChange2}
+                      value={passwordInput2}
                     />
                     <div className="input-group-btn">
-                      <button onClick={togglePassword}>
-                        {passwordType === "password" ? (
+                      <button onClick={togglePassword2}>
+                        {passwordType2 === "password" ? (
                           <i className="fa fa-eye"></i>
                         ) : (
                           <i className="fa fa-eye-slash"></i>
