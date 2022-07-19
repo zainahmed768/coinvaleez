@@ -41,6 +41,7 @@
 .signup-wrapper .form-label-group.in-border .input-group-btn button {
   background: transparent;
   color: #a29cb9;
+  border: none;
 }
 .signup-wrapper button.btn {
   background-image: linear-gradient(
