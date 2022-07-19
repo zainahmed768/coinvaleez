@@ -89,6 +89,15 @@
   left: -4px;
   bottom: -10px;
 }
+.selectWallet
+  .wallets-list-wrapper
+  ul.wallets-list
+  label.wallet-container
+  input[type="radio"]:checked
+  ~ .wallet-card-wrapper
+  .wallet-content-wrapper {
+  opacity: 1;
+}
 .selectWallet li.wallet img {
   height: 70px;
   width: 70px;
@@ -99,7 +108,25 @@
   padding: 0px !important;
   height: 50px;
   font-size: 14px;
+  background-image: linear-gradient(
+    to right,
+    #00cfc4,
+    #00cec4,
+    #00cec4,
+    #00cdc4,
+    #00ccc4,
+    #00c8c7,
+    #00c3c9,
+    #00bfcb,
+    #00b5cd,
+    #00abce,
+    #00a0cc,
+    #0895c9
+  );
   font-weight: 600;
+}
+.wallet-card-wrapper .wallet-content-wrapper {
+  opacity: 64%;
 }
 .wallet-card-wrapper .wallet-img-wrapper img {
   mix-blend-mode: color-dodge;

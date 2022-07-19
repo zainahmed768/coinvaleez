@@ -14,8 +14,11 @@ import {
 
 const SelectWallet = () => {
   const [isChecked, setIsChecked] = useState(false);
+  const [id, setId] = useState("");
 
-  const handleOnChange = (e) => {
+  const handleOnChange = (e, id) => {
+    console.log(e.target.checked)
+    setId(id)
     setIsChecked(e.target.checked);
   };
   const BrowsePage = () => {
@@ -45,13 +48,13 @@ const SelectWallet = () => {
                       <input
                         name="Hardware"
                         type="radio"
-                        onClick={handleOnChange}
+                        onClick={(e)=>handleOnChange(e,"1")}
                       />
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
                             className={`${isChecked}`}
-                            src={isChecked ? usb : notcheckusb}
+                            src={id == 1 ? usb : notcheckusb}
                           />
                         </div>
                         <div className="wallet-content-wrapper">
@@ -68,13 +71,13 @@ const SelectWallet = () => {
                       <input
                         name="Hardware"
                         type="radio"
-                        onClick={handleOnChange}
+                        onClick={(e)=>handleOnChange(e,"2")}
                       />
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
                             className={`${isChecked}`}
-                            src={isChecked ? notcheckmobile : checkmobile}
+                            src={id == 2 ?  checkmobile : notcheckmobile}
                           />
                         </div>
                         <div className="wallet-content-wrapper">
@@ -91,13 +94,13 @@ const SelectWallet = () => {
                       <input
                         name="Hardware"
                         type="radio"
-                        onClick={handleOnChange}
+                        onClick={(e)=>handleOnChange(e,"3")}
                       />
                       <div className="wallet-card-wrapper">
                         <div className="wallet-img-wrapper">
                           <img
                             className={`${isChecked}`}
-                            src={isChecked ? notchecklaptop : checklaptop}
+                            src={id == 3 ?  checklaptop : notchecklaptop}
                           />
                         </div>
                         <div className="wallet-content-wrapper">

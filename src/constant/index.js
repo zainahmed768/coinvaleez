@@ -41,6 +41,8 @@ import checklaptop from "../assets/img/checklaptop.png";
 import notchecklaptop from "../assets/img/notcchecklaptop.png";
 import search_icon from "../assets/img/search-icon.png";
 import chart_img from "../assets/img/charts-img.png";
+import leftBorder from "../assets/img/slide-outline.png"
+import rightBorder from "../assets/img/right-slide-outline.png"
 
 export {
   chart_img,
@@ -86,4 +88,6 @@ export {
   current_buzz,
   footer_hand,
   footer_binance,
+  leftBorder,
+  rightBorder
 };

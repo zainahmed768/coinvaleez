@@ -155,7 +155,7 @@
   text-align: center;
 }
 div#profile th.Asset {
-  width: 18%;
+  width: 15%;
   text-align: center;
 }
 div#profile tr:first-child td {
@@ -216,6 +216,7 @@ div#profile th.Balance {
 }
 .tab-content-wrapper th.index {
   width: 8%;
+  padding-left: 20px;
 }
 div#home th.Action {
   width: 35%;
@@ -313,4 +314,11 @@ div#home th.Asset {
   font-family: "Montserrat" !important;
   font-size: 19px !important;
   font-weight: 500 !important;
+}
+.wallet-card-wrapper .borderr img.img-fluid.not-visible {
+  opacity: 1 !important;
+}
+
+.wallet-card-wrapper .borderr img.img-fluid {
+  opacity: 0 !important;
 }
