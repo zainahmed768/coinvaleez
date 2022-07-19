@@ -101,3 +101,10 @@
   opacity: 1;
   font-size: 11px;
 }
+
+.form-label-group input[type="password"]::placeholder {
+  color: #9c9c9d;
+  visibility: visible;
+  opacity: 1;
+  font-size: 11px;
+}

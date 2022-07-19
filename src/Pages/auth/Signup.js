@@ -103,7 +103,7 @@ const Signup = () => {
                   </div>
                   <div class="form-label-group in-border">
                     <input
-                      type="text"
+                      type={passwordType}
                       className="form-control confirm-password"
                       id="ex1"
                       placeholder="**********"
