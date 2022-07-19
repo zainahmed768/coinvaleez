@@ -46,18 +46,21 @@
   background-image: linear-gradient(
     to right,
     #00cfc4,
-    #00cec4,
-    #00cec4,
-    #00cdc4,
-    #00ccc4,
-    #00c8c7,
-    #00c3c9,
-    #00bfcb,
-    #00b5cd,
-    #00abce,
-    #00a0cc,
-    #0895c9
+    #00c9c7,
+    #00c3c8,
+    #00bdc9,
+    #00b7c9,
+    #00aecf,
+    #00a4d3,
+    #009ad4,
+    #0088db,
+    #0075de,
+    #005edc,
+    #1641d2
   );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .signup-wrapper .btn {
   padding: 0px !important;
