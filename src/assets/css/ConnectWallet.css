@@ -156,6 +156,10 @@
 }
 div#profile th.Asset {
   width: 18%;
+  text-align: center;
+}
+div#profile tr:first-child td {
+  padding-top: 40px;
 }
 div#profile th.Balance {
   text-align: center;
@@ -185,10 +189,14 @@ div#profile th.Balance {
 .tab-wrapper td {
   vertical-align: middle;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat";
 }
-
+#home .assets-wrapper h5 {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-bottom: 0px;
+}
 .wallet-sec {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -204,10 +212,13 @@ div#profile th.Balance {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 150px;
+  width: 122px;
 }
 .tab-content-wrapper th.index {
   width: 8%;
+}
+div#home th.Action {
+  width: 35%;
 }
 div#profile th.Action {
   width: 14%;
@@ -217,13 +228,16 @@ div#profile th.index {
   width: 15%;
 }
 .tab-wrapper button.btn {
-  height: 31px;
-  padding: 0px 20px !important;
-  font-size: 14px;
+  height: 28px;
+  padding: 0px 18px !important;
+  font-size: 13px !important;
   border-radius: 5px !important;
   background: #283748;
   border: 2px solid #3c4a5a !important;
   margin: 0px 10px;
+}
+div#home th.Asset {
+  text-align: center;
 }
 .tab-wrapper .table-responsive {
   margin-top: 40px;
@@ -243,8 +257,19 @@ div#profile th.index {
 }
 .tab-wrapper td {
   border: 0px;
-  padding: 21px 10px;
+  padding: 15px 10px;
   vertical-align: middle;
+}
+#home tr:first-child td {
+  padding-top: 40px;
+}
+#profile .assets-wrapper {
+  width: 119px;
+}
+#profile .assets-wrapper h5 {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-bottom: 0px;
 }
 .tab-wrapper .pagination-wrapper {
   display: flex;

@@ -91,7 +91,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="fa-map-marker"></i>JI. Sample Road No.815,
-                      Kuta, UK 80361
+                      Kuta,
                     </li>
                     <li>
                       <i className="fa-phone"></i> (+12) 345 678 9
