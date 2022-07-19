@@ -24,7 +24,7 @@ const Signup = () => {
     setPasswordType("password");
   };
   const togglePassword2 = () => {
-    if (passwordType === "password") {
+    if (passwordType2 === "password") {
       setPasswordType2("text");
       return;
     }
