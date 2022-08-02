@@ -196,6 +196,7 @@ header .mobile-header .cancel {
 		background: #182b41;
 	}
 }
+
 /* header ends here */
 /* banner starts here */
 .banner-sec {
@@ -265,6 +266,29 @@ header .mobile-header .cancel {
 	}
 	.banner-sec .banner-img-wrapper img.banner-img {
 		left: 52px;
+	}
+}
+@media (max-width: 375px) {
+	.banner-sec .banner-content {
+		padding: 32px;
+	}
+}
+@media (max-width: 360px) {
+	.banner-sec .banner-content {
+		padding: 19px;
+	}
+	.banner-sec h1 {
+		color: #fff;
+		font-size: 32px !important;
+	}
+	.banner-sec {
+		height: 89vh;
+	}
+	.banner-sec .ploy-img-wrapper {
+		position: absolute;
+		bottom: -2%;
+		left: -5%;
+		transform: scale(0.5);
 	}
 }
 /* banner ends here */
@@ -1239,6 +1263,13 @@ footer#footer .copyright p {
 	}
 	.trading_coins {
 		overflow-x: clip;
+	}
+}
+@media (max-width: 375px) {
+	footer#footer .footer-coin {
+		position: absolute;
+		right: 0px;
+		bottom: 21%;
 	}
 }
 /* tading ends here */

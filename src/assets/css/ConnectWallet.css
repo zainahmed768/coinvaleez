@@ -424,6 +424,10 @@ div#home th.Asset {
 	}
 }
 @media (max-width: 480px) {
+	.wallet-sec .trading-card-wrapper {
+		position: relative;
+		margin: 40px 0px;
+	}
 	.wallet-sec .collect-wrapper {
 		background: #1a293a;
 		padding: 31px 18px 58px 18px;
@@ -438,8 +442,37 @@ div#home th.Asset {
 		position: relative;
 		top: -31px;
 	}
+	.wallet-sec div#table_2_filter label {
+		color: transparent;
+		position: relative;
+		top: -31px;
+	}
+	.wallet-sec table#table_2 td.rating {
+		padding-top: 20px;
+	}
+	div#profile tr:first-child td.rating {
+		padding-top: 51px;
+	}
 	.wallet-sec .table-responsive {
 		overflow-x: scroll;
+	}
+	.wallet-sec .table-responsive::-webkit-scrollbar {
+		height: 5px !important;
+	}
+
+	/* Track */
+	.wallet-sec .table-responsive::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	.wallet-sec .table-responsive::-webkit-scrollbar-thumb {
+		background: #888;
+	}
+
+	/* Handle on hover */
+	.wallet-sec .table-responsive::-webkit-scrollbar-thumb:hover {
+		background: #555;
 	}
 	.wallet-sec .tab-links-wrapper .nav-tabs .nav-link {
 		padding: 12px 12px;
@@ -458,5 +491,19 @@ div#home th.Asset {
 	.tab-wrapper button.btn {
 		padding: 0px 6px !important;
 		margin: 6px 0px;
+	}
+	.wallet-sec .tab-wrapper td.rating {
+		width: 26px !important;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0px;
+		padding-top: 57px;
+	}
+	.wallet-sec .tab-wrapper td.rating i {
+		margin-right: 3px;
+	}
+	#home tr:first-child td.rating {
+		padding-top: 92px;
 	}
 }
