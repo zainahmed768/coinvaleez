@@ -1,324 +1,462 @@
 .wallet-sec {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-image: url("../img/banner-bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url("../img/banner-bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .wallet-sec .collect-wrapper {
-  background: #1a293a;
-  padding: 40px 60px 74px 60px;
-  border-radius: 11px;
-  border: 2px solid #31445a;
+	background: #1a293a;
+	padding: 40px 60px 74px 60px;
+	border-radius: 11px;
+	border: 2px solid #31445a;
 }
 .wallet-sec .collect-wrapper h4 {
-  font-size: 35px !important;
-  font-weight: 500 !important;
-  font-family: "Montserrat" !important;
+	font-size: 35px !important;
+	font-weight: 500 !important;
+	font-family: "Montserrat" !important;
 }
 
 .wallet-sec .collect-wrapper p {
-  color: #aeb3b8;
-  font-size: 15px !important;
+	color: #aeb3b8;
+	font-size: 15px !important;
 }
 .wallet-sec .trading-card-wrapper .coin-wrapper {
-  background: #1c2c3e;
-  border-radius: 6px;
-  border: 2px solid #283a4e;
-  display: flex;
-  align-items: center;
-  padding: 26px 10px 10px 10px;
+	background: #1c2c3e;
+	border-radius: 6px;
+	border: 2px solid #283a4e;
+	display: flex;
+	align-items: center;
+	padding: 26px 10px 10px 10px;
 }
 .trading-card-wrapper h3 {
-  font-size: 21px !important;
+	font-size: 21px !important;
 }
 .trading-card-wrapper h4 {
-  font-size: 16px !important;
-  font-weight: 400 !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
 }
 .trading-card-wrapper h6 {
-  background: #07192d;
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #283a4e;
-  color: #2a61ce;
-  font-size: 12px !important;
-  font-weight: 600;
-  height: 24px;
-  padding: 0px;
-  width: 69px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background: #07192d;
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #283a4e;
+	color: #2a61ce;
+	font-size: 12px !important;
+	font-weight: 600;
+	height: 24px;
+	padding: 0px;
+	width: 69px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .trading-card-wrapper h6.margin {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 .trading-card-wrapper h4 {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 .trading-card-wrapper h6.btc {
-  margin: 0px auto;
+	margin: 0px auto;
 }
 .trading_coins .trading-card-wrapper .coin-wrapper .cart-wrapper {
-  flex: 0 0 35%;
-  margin-top: 10px;
+	flex: 0 0 35%;
+	margin-top: 10px;
 }
 .wallet-sec .trading-card-wrapper .coin-wrapper .coin-name-wrapper {
-  flex: 0 0 52%;
+	flex: 0 0 52%;
 }
 .wallet-sec .trading-card-wrapper .coin-wrapper .cart-wrapper {
-  flex: 0 0 35%;
+	flex: 0 0 35%;
 }
 .wallet-sec .trading-card-wrapper {
-  position: relative;
-  margin: 20px 0px;
+	position: relative;
+	margin: 20px 0px;
 }
 .wallet-sec .trading-card-wrapper .trading-icon-wrapper {
-  position: absolute;
-  right: 14px;
-  top: -29px;
+	position: absolute;
+	right: 14px;
+	top: -29px;
 }
 .wallet-sec .coin-wrapper {
-  margin-top: -35px;
+	margin-top: -35px;
 }
 .wallet-sec .container-fluid {
-  width: 1250px;
+	width: 1250px;
 }
 .tab-content-wrapper .tab-links-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 37px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 37px;
 }
 .tab-content-wrapper .tab-links-wrapper .search-wrapper {
-  flex: 0 0 30%;
-  display: flex;
-  border: 1px solid #fff;
-  border-radius: 5px;
+	flex: 0 0 30%;
+	display: flex;
+	border: 1px solid #fff;
+	border-radius: 5px;
 }
 .tab-content-wrapper .tab-links-wrapper ul#myTab {
-  flex: 0 0 70%;
-  border: 0px;
+	flex: 0 0 70%;
+	border: 0px;
 }
 
 .tab-content-wrapper .tab-links-wrapper .search-wrapper input {
-  background: transparent;
-  font-family: "Montserrat";
-  font-size: 12px;
-  height: 43px;
-  color: #fff;
-  border: 0px;
+	background: transparent;
+	font-family: "Montserrat";
+	font-size: 12px;
+	height: 43px;
+	color: #fff;
+	border: 0px;
 }
 .tab-content-wrapper .tab-links-wrapper .search-wrapper input::placeholder {
-  color: #fff;
+	color: #fff;
 }
 .tab-content-wrapper .tab-links-wrapper .search-wrapper button {
-  background: transparent;
-  border: 0px;
-  border-left: 1px solid #fff;
-  height: 24px;
-  margin-top: 10px;
+	background: transparent;
+	border: 0px;
+	border-left: 1px solid #fff;
+	height: 24px;
+	margin-top: 10px;
 }
 
 .tab-links-wrapper .nav-tabs .nav-link.active {
-  background: linear-gradient(
-    to right,
-    #00cfc4,
-    #00c9c7,
-    #00c3c8,
-    #00bdc9,
-    #00b7c9,
-    #00aecf,
-    #00a4d3,
-    #009ad4,
-    #0088db,
-    #0075de,
-    #005edc,
-    #1641d2
-  ) !important;
-  color: #fff;
-  border: 0px;
-  border-radius: 4px;
-  font-family: "Montserrat";
-  font-size: 14px;
-  padding: 12px 24px;
-  font-weight: 600;
-  background-repeat: no-repeat;
-  border: 1px solid #00cfc4 !important;
+	background: linear-gradient(
+		to right,
+		#00cfc4,
+		#00c9c7,
+		#00c3c8,
+		#00bdc9,
+		#00b7c9,
+		#00aecf,
+		#00a4d3,
+		#009ad4,
+		#0088db,
+		#0075de,
+		#005edc,
+		#1641d2
+	) !important;
+	color: #fff;
+	border: 0px;
+	border-radius: 4px;
+	font-family: "Montserrat";
+	font-size: 14px;
+	padding: 12px 24px;
+	font-weight: 600;
+	background-repeat: no-repeat;
+	border: 1px solid #00cfc4 !important;
 }
 .assets-heading-wrapper h3 {
-  font-family: "Montserrat" !important;
-  font-weight: 500 !important;
+	font-family: "Montserrat" !important;
+	font-weight: 500 !important;
 }
 .tab-wrapper td.balance-wrapper {
-  text-align: center;
+	text-align: center;
 }
 div#profile th.Asset {
-  width: 15%;
-  text-align: center;
+	width: 15%;
+	text-align: center;
 }
 div#profile tr:first-child td {
-  padding-top: 40px;
+	padding-top: 40px;
 }
 div#profile th.Balance {
-  text-align: center;
+	text-align: center;
 }
 .pagination-wrapper .pagination-list-wrapper a.pagination-links.active {
-  color: #747d88;
+	color: #747d88;
 }
 .wallet-sec .tab-links-wrapper .nav-tabs .nav-link {
-  background: transparent;
-  color: #fff;
-  border: 0px;
-  border-radius: 7px;
-  font-family: "Montserrat";
-  font-size: 14px;
-  padding: 12px 24px;
-  font-weight: 600;
-  margin: 0px 10px 0px 0px;
-  border: 1px solid #fff;
-  margin-right: 30px;
+	background: transparent;
+	color: #fff;
+	border: 0px;
+	border-radius: 7px;
+	font-family: "Montserrat";
+	font-size: 14px;
+	padding: 12px 24px;
+	font-weight: 600;
+	margin: 0px 10px 0px 0px;
+	border: 1px solid #fff;
+	margin-right: 30px;
 }
 .wallet-sec .tab-wrapper {
-  background: #1a293a;
-  padding: 20px;
-  border-radius: 8px;
-  border: 2px solid #283748;
+	background: #1a293a;
+	padding: 20px;
+	border-radius: 8px;
+	border: 2px solid #283748;
 }
 .tab-wrapper td {
-  vertical-align: middle;
-  color: #fff;
-  font-size: 14px;
-  font-family: "Montserrat";
+	vertical-align: middle;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Montserrat";
 }
 #home .assets-wrapper h5 {
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  margin-bottom: 0px;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	margin-bottom: 0px;
 }
 .wallet-sec {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-image: url("../img/banner-bg.png");
-  background-repeat: no-repeat;
-  background-position: center top;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url("../img/banner-bg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 .tab-wrapper .table thead th {
-  color: #fff;
-  font-weight: 600;
+	color: #fff;
+	font-weight: 600;
 }
 .tab-wrapper .assets-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 122px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 122px;
 }
 .tab-content-wrapper th.index {
-  width: 8%;
-  padding-left: 20px;
+	width: 8%;
+	padding-left: 20px;
 }
 div#home th.Action {
-  width: 35%;
+	width: 35%;
 }
 div#profile th.Action {
-  width: 14%;
-  text-align: center;
+	width: 14%;
+	text-align: center;
 }
 div#profile th.index {
-  width: 15%;
+	width: 15%;
 }
 .tab-wrapper button.btn {
-  height: 28px;
-  padding: 0px 18px !important;
-  font-size: 13px !important;
-  border-radius: 5px !important;
-  background: #283748;
-  border: 2px solid #3c4a5a !important;
-  margin: 0px 10px;
+	height: 28px;
+	padding: 0px 18px !important;
+	font-size: 13px !important;
+	border-radius: 5px !important;
+	background: #283748;
+	border: 2px solid #3c4a5a !important;
+	margin: 0px 10px;
 }
 div#home th.Asset {
-  text-align: center;
+	text-align: center;
 }
 .tab-wrapper .table-responsive {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 .assets-wrapper img {
-  height: 30px;
+	height: 30px;
 }
 .tab-wrapper td {
-  border: 0px;
-  padding: 15px 10px;
+	border: 0px;
+	padding: 15px 10px;
 }
 .tab-wrapper .table-responsive {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 .assets-wrapper img {
-  height: 30px;
+	height: 30px;
 }
 .tab-wrapper td {
-  border: 0px;
-  padding: 15px 10px;
-  vertical-align: middle;
+	border: 0px;
+	padding: 15px 10px;
+	vertical-align: middle;
 }
 #home tr:first-child td {
-  padding-top: 40px;
+	padding-top: 40px;
 }
 #profile .assets-wrapper {
-  width: 119px;
+	width: 119px;
 }
 #profile .assets-wrapper h5 {
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  margin-bottom: 0px;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	margin-bottom: 0px;
 }
 .tab-wrapper .pagination-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  border-top: 1px solid #c5c5c5;
-  margin-top: 34px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-top: 1px solid #c5c5c5;
+	margin-top: 34px;
 }
 .pagination-list-wrapper ul {
-  padding: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .pagination-wrapper .total-record-wrapper {
-  flex: 0 0 30%;
+	flex: 0 0 30%;
 }
 .pagination-wrapper .pagination-list-wrapper {
-  flex: 0 0 24%;
+	flex: 0 0 24%;
 }
 .pagination-wrapper .pagination-list-wrapper li a {
-  color: #fff;
-  font-family: "Montserrat";
-  text-decoration: none;
+	color: #fff;
+	font-family: "Montserrat";
+	text-decoration: none;
 }
 
 .pagination-wrapper .pagination-list-wrapper li a i {
-  color: #66798f;
+	color: #66798f;
 }
 
 .pagination-wrapper .pagination-list-wrapper li a:last-child i {
-  border: 1px solid;
-  height: 35px;
-  width: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	border: 1px solid;
+	height: 35px;
+	width: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .coin-wrapper .trading-card-wrapper h3 {
-  font-family: "Montserrat" !important;
-  font-size: 19px !important;
-  font-weight: 500 !important;
+	font-family: "Montserrat" !important;
+	font-size: 19px !important;
+	font-weight: 500 !important;
 }
 .wallet-card-wrapper .borderr img.img-fluid.not-visible {
-  opacity: 1 !important;
+	opacity: 1 !important;
 }
 
 .wallet-card-wrapper .borderr img.img-fluid {
-  opacity: 0 !important;
+	opacity: 0 !important;
+}
+.wallet-sec .dataTables_wrapper .dataTables_info {
+	color: #fff;
+	font-family: "Montserrat" !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+}
+.wallet-sec div#table_1_length label {
+	display: none;
+}
+.wallet-sec table.dataTable thead th {
+	border-bottom: 1px solid #fff;
+}
+.wallet-sec table.dataTable.no-footer {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 32px;
+	margin-bottom: 24px;
+}
+.wallet-sec div#table_1_filter label {
+	color: transparent;
+	position: relative;
+	top: -84px;
+}
+.wallet-sec div#table_1_filter label input[type="search"] {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 319px;
+	background-color: transparent;
+	font-family: "Montserrat";
+	font-size: 12px;
+	height: 43px;
+	color: #fff;
+	padding: 10px;
+	background-image: url("../img/search-icon.png");
+	background-repeat: no-repeat;
+	background-position: 95%;
+}
+
+.wallet-sec div#table_1_filter label input[type="search"]::placeholder {
+	color: #fff;
+}
+.wallet-sec .table-responsive {
+	overflow-x: clip;
+}
+.wallet-sec .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+	background: transparent;
+	border: 0px;
+	color: #fff !important;
+	font-size: 17px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+	color: #fff !important;
+	font-family: "Montserrat" !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover {
+	color: #fff !important;
+}
+.wallet-sec div#table_2_filter label {
+	color: transparent;
+	position: relative;
+	top: -84px;
+}
+.wallet-sec div#table_2_filter label input[type="search"] {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 319px;
+	background-color: transparent;
+	font-family: "Montserrat";
+	font-size: 12px;
+	height: 43px;
+	color: #fff;
+	padding: 10px;
+	background-image: url("../img/search-icon.png");
+	background-repeat: no-repeat;
+	background-position: 95%;
+}
+
+.wallet-sec div#table_2_filter label input[type="search"]::placeholder {
+	color: #fff;
+}
+.wallet-sec #profile div#table_2_length {
+	display: none;
+}
+@media (max-width: 1100px) {
+	.wallet-sec .container-fluid {
+		width: auto;
+	}
+	.coin-wrapper .trading-card-wrapper h3 {
+		font-family: "Montserrat" !important;
+		font-size: 14px !important;
+	}
+	.tab-wrapper button.btn {
+		padding: 0px 6px !important;
+	}
+	.wallet-sec table.dataTable thead th {
+		font-size: 15px;
+	}
+}
+@media (max-width: 480px) {
+	.wallet-sec .collect-wrapper {
+		background: #1a293a;
+		padding: 31px 18px 58px 18px;
+		border-radius: 11px;
+		border: 2px solid #31445a;
+	}
+	.wallet-sec .trading-card-wrapper .coin-wrapper .coin-name-wrapper {
+		flex: 0 0 65%;
+	}
+	.wallet-sec div#table_1_filter label {
+		color: transparent;
+		position: relative;
+		top: -31px;
+	}
+	.wallet-sec .table-responsive {
+		overflow-x: scroll;
+	}
+	.wallet-sec .tab-links-wrapper .nav-tabs .nav-link {
+		padding: 12px 12px;
+		margin-right: 7px;
+	}
+	.tab-content-wrapper .tab-links-wrapper ul#myTab {
+		flex: 0 0 100%;
+	}
+	.wallet-sec table.dataTable tbody th,
+	table.dataTable tbody td {
+		padding: 8px 4px;
+	}
+	.wallet-sec table.dataTable thead th {
+		padding: 5px;
+	}
+	.tab-wrapper button.btn {
+		padding: 0px 6px !important;
+		margin: 6px 0px;
+	}
 }
