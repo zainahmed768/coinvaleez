@@ -1,6 +1,6 @@
 import "../src/assets/css/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap";
+// import "bootstrap/dist/js/bootstrap";
 import PublicRoutes from "./routes/PublicRoutes";
 
 import { useEffect } from "react";

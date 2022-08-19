@@ -23,8 +23,7 @@ const BrowserWallet = () => {
               <div className="signup-heading-wrapper">
                 <h2>Select Wallets Types :</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting
+                  Coinvaleez
                 </p>
               </div>
             </div>

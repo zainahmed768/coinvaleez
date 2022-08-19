@@ -18,9 +18,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  sollii sn erat vel n erat n erat vel rhoncus n erat vel
-                  rhoncus sollicitudin.
+                  Coinvaleez
                 </p>
                 <div className="social-wrapper">
                   <ul>
@@ -107,10 +105,13 @@ const Footer = () => {
               <div className="footer-widget-4">
                 <div className="footer-links">
                   <h5>Newsletter</h5>
+                  {/*<p>*/}
+                  {/*  Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. In*/}
+                  {/*  sollii sn erat vel n <br/>  erat n erat vel rhoncus n erat vel  <br/>*/}
+                  {/*  rhoncus sollicitudin.*/}
+                  {/*</p>*/}
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. In
-                    sollii sn erat vel n <br/>  erat n erat vel rhoncus n erat vel  <br/>
-                    rhoncus sollicitudin.
+                    Coinvaleez
                   </p>
                   <div className="input-group">
                     <input

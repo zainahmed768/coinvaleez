@@ -59,8 +59,7 @@ const Signup = () => {
               <div className="signup-heading-wrapper">
                 <h2>Sign Up</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting
+                  Coinvaleez
                 </p>
               </div>
               <div className="signup-wrapper">

@@ -17,8 +17,7 @@ const Onboarding = () => {
                 <div className="onboarding-heading-wrapper">
                   <h2>Onboarding For Entities</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting
+                    Coinvaleez
                   </p>
                 </div>
                 <div className="onboarding-form-wrappper mt-5">
@@ -114,12 +113,7 @@ const Onboarding = () => {
                       <div className="importance-wrapper">
                         <h4>Important Notes</h4>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          Lorem Ipsum is simply dummy text of the printing and
-                          types etting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
+                          Coinvaleez
                         </p>
                       </div>
                       <div className="provide-wrapper">

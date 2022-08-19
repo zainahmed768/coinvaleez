@@ -27,12 +27,7 @@ const ConnectWallet = () => {
 							<div className="collect-wrapper">
 								<h4>Connected Wallet</h4>
 								<p>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, Lorem Ipsum is
-									simply dummy text of the printing and types etting industry.
-									Lorem Ipsum has been the industry's standard dummy text ever
-									since the 1500s,
+									Coinvaleez
 								</p>
 							</div>
 						</div>

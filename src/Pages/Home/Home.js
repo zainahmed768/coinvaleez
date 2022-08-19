@@ -91,9 +91,7 @@ const Home = () => {
 							<div className="banner-content wow animate__animated animate__fadeInLeft">
 								<h1>Monitor Crypto Portfolio Of User In Real Time.</h1>
 								<p>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text.
+									Coinvaleez
 								</p>
 								<button className="btn">Get Started</button>
 								<button className="btn">How it works</button>
@@ -168,16 +166,7 @@ const Home = () => {
 								<h2>Manage Your Crypto And Defi Portfolio From One Place</h2>
 								<div className="divider"></div>
 								<p>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-									the release of Letraset sheets containing Lorem Ipsum
-									passages, and more recently with desktop publishing software
-									like Aldus PageMaker including of Lorem Ipsum.
+									Coinvaleez
 								</p>
 								<a href="#" className="btn">
 									Learn more
@@ -203,8 +192,7 @@ const Home = () => {
 								<h2>Select Your Hardware Type</h2>
 								<div className="divider"></div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod
+									Coinvaleez
 								</p>
 							</div>
 						</div>
@@ -217,7 +205,7 @@ const Home = () => {
 								</div>
 								<div className="hard-content-wrapper">
 									<h4>Mobile</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									<p>Coinvaleez</p>
 									<a href="#">
 										Connect <i className="fa-angle-right"></i>
 									</a>
@@ -231,7 +219,7 @@ const Home = () => {
 								</div>
 								<div className="hard-content-wrapper">
 									<h4>Computer</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									<p>Coinvaleez</p>
 									<a href="#">
 										Connect <i className="fa-angle-right"></i>
 									</a>
@@ -245,7 +233,7 @@ const Home = () => {
 								</div>
 								<div className="hard-content-wrapper">
 									<h4>Wallet</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur.</p>
+									<p>Coinvaleez</p>
 									<a href="#">
 										Connect <i className="fa-angle-right"></i>
 									</a>
@@ -268,12 +256,7 @@ const Home = () => {
 								<h2>Select Browser Wallet Type</h2>
 								<div className="divider"></div>
 								<p>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic
+									Coinvaleez
 								</p>
 								<a href="#" className="btn">
 									Learn more
@@ -338,8 +321,7 @@ const Home = () => {
 								<h2>Current Trading Coins</h2>
 								<div className="divider"></div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod
+									Coinvaleez
 								</p>
 							</div>
 						</div>
@@ -568,9 +550,7 @@ const Home = () => {
 										<div className="blog-content-wrapper">
 											<h5>Ethereum Re-orgs, Crypto Decouples</h5>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
+												Coinvaleez
 											</p>
 											<div className="blog-btn-name">
 												<button className="btn">Learn more</button>
@@ -593,9 +573,7 @@ const Home = () => {
 										<div className="blog-content-wrapper">
 											<h5>Ethereum Re-orgs, Crypto Decouples</h5>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
+												Coinvaleez
 											</p>
 											<div className="blog-btn-name">
 												<button className="btn">Learn more</button>
@@ -618,9 +596,7 @@ const Home = () => {
 										<div className="blog-content-wrapper">
 											<h5>Ethereum Re-orgs, Crypto Decouples</h5>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
+												Coinvaleez
 											</p>
 											<div className="blog-btn-name">
 												<button className="btn">Learn more</button>
@@ -643,9 +619,7 @@ const Home = () => {
 										<div className="blog-content-wrapper">
 											<h5>Ethereum Re-orgs, Crypto Decouples</h5>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
+												Coinvaleez
 											</p>
 											<div className="blog-btn-name">
 												<button className="btn">Learn more</button>
@@ -721,11 +695,7 @@ const Home = () => {
 									>
 										<div className="card-body">
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
-												when an unknown printer took a galley of type and
-												scrambled it to make a type specimen book.
+												Coinvaleez
 											</p>
 										</div>
 									</div>
@@ -756,11 +726,7 @@ const Home = () => {
 									>
 										<div className="card-body">
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
-												when an unknown printer took a galley of type and
-												scrambled it to make a type specimen book.
+												Coinvaleez
 											</p>
 										</div>
 									</div>
@@ -791,11 +757,7 @@ const Home = () => {
 									>
 										<div className="card-body">
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
-												when an unknown printer took a galley of type and
-												scrambled it to make a type specimen book.
+												Coinvaleez
 											</p>
 										</div>
 									</div>
@@ -826,11 +788,7 @@ const Home = () => {
 									>
 										<div className="card-body">
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
-												when an unknown printer took a galley of type and
-												scrambled it to make a type specimen book.
+												Coinvaleez
 											</p>
 										</div>
 									</div>
@@ -861,11 +819,7 @@ const Home = () => {
 									>
 										<div className="card-body">
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												industry's standard dummy text ever since the 1500s,
-												when an unknown printer took a galley of type and
-												scrambled it to make a type specimen book.
+												Coinvaleez
 											</p>
 										</div>
 									</div>

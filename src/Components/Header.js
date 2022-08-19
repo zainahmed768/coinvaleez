@@ -44,7 +44,7 @@ const Header = () => {
 									</li>
 									<li className="nav-item">
 										<Link className="nav-link" to="/onboarding">
-											Exchange
+											Onboard
 										</Link>
 									</li>
 									<li className="nav-item">
